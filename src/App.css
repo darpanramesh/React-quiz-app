@@ -22,12 +22,139 @@
 .App-link {
   color: #61dafb;
 }
+#header{
+  background-color:#333333;
+  border-bottom: 3px solid #13a89e;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 10px;
+  color:white
+}
+.introQuiz{
+  top: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: absolute;
+    margin-bottom: 10%;
+}
+.introQuizS1{
+  font-weight: bold;
+    font-size: large;
+}
+.introQuizS2{
+  font-weight: bold;
+    font-size: large;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.h1{
+  display: flex;
+  position: relative;
+  align-items: center;
+}
 
+.headerS1{
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.ph{
+  font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.46429em;
+}
+.ph2{
+  margin: 0;
+    display: block;
+}
+.p1{
+  margin: 0;
+  display: block;
+}
+.p2{
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.46429em;
+}
+.btnp1{
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.div{
+  box-shadow: 1px 1px 4px 1px grey;
+    padding: 20px;
+    width: 1200px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: left;
+}
+.btnp2{
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  min-height: 36px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-weight: 500;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.4em;
+  border-radius: 4px;
+}
+.disc{
+  overflow: hidden;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.sp1{
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit
+}
+.introDiv{
+  margin-bottom: 100px !important;
+        height:500px;
+        width:100%;
+        background:
+            linear-gradient(-135deg, #13a89e 5px, transparent 0) 0 5px,
+            linear-gradient(135deg, #13a89e 5px, #fff 0) 0 5px;
+        background-color:#13a89e;
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        background-size: 10px 10px;
+}
+.name{
+  margin-left: 40%;
+  color:white;
+  font-size: 5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .ques{
+    width:100%
   }
 }
